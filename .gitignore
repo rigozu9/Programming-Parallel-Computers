@@ -1,1 +1,15 @@
 .DS_Store
+
+# Ignore grading system folders anywhere
+**/benchmarks/
+**/tests/
+**/.ppc/
+
+# Ignore grading script files
+**/grading
+
+# Ignore compiled binaries
+**/*.out
+**/*.o
+**/*.dSYM/
+**/*.dSYM
